@@ -1,0 +1,85 @@
+.classify-content {
+  width: 20rem;
+  margin: 0 auto;
+}
+.classify-content .stylesheet-top {
+  width: 20rem;
+  height: 2.18666667rem;
+  background-color: #fff;
+  position: relative;
+}
+.classify-content .stylesheet-top > .seek {
+  margin-right: 19px;
+  font-size: 14px;
+  height: 2.18666667rem;
+  line-height: 2.18666667rem;
+}
+.classify-content .stylesheet-top > h1 {
+  margin-left: 6.606667rem;
+  height: 2.18666667rem;
+  line-height: 2.18666667rem;
+  font-size: 18px;
+}
+.classify-content .stylesheet-top .sanjiao {
+  width: 1.01333333rem;
+  height: 1.01333333rem;
+  border: 0.05333333rem solid #777777;
+  transform: translate(0.6rem, 0.6rem) rotate(45deg);
+}
+.classify-content .stylesheet-top .sanjiao1 {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #fff;
+  position: absolute;
+  top: 0.27rem;
+  left: 1.1333333rem;
+}
+.classify-content .stylesheet-newproduct > .stylesheet-newproductlist > li {
+  width: 25%;
+  border-right: 0.02666667rem solid #f2f2f2;
+  height: 4.61333333rem;
+  float: left;
+}
+.classify-content .stylesheet-newproduct > .stylesheet-focusimg {
+  height: 6.21333333rem;
+  background-color: #f29c9f;
+}
+.classify-content .stylesheet-newproduct > .stylesheet-focusimg > .sanjiao {
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+  background-color: #fff;
+  transform: translate(0.26rem, 5.7rem) rotate(45deg);
+}
+.classify-content .headline {
+  color: #4d4d4d;
+  font-size: 0.48rem;
+  height: 1.86666667rem;
+  line-height: 1.86666667rem;
+  padding-left: 0.77333333rem;
+  background-color: #f2f2f2;
+}
+.classify-content .headline > a {
+  float: right;
+  font-size: 12px;
+  padding-right: 15px;
+}
+.classify-content .stylesheet-beautymakeup .stylesheet-beautymakeup-box .stylesheet-beautymakeup-l {
+  width: 50%;
+  height: 16.93333333rem;
+  background-color: #0000cc;
+  float: left;
+}
+.classify-content .stylesheet-beautymakeup .stylesheet-beautymakeup-box > .stylesheet-beautymakeup-r {
+  width: 50%;
+  height: 16.93333333rem;
+  background-color: plum;
+  float: left;
+  height: 7.44rem;
+}
+.classify-content .stylesheet-beautymakeup .stylesheet-beautymakeup-box .stylesheet-beautymakeup-r1 {
+  width: 50%;
+  height: 16.93333333rem;
+  background-color: paleturquoise;
+  float: left;
+  height: 9.49333333rem;
+}

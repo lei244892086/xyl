@@ -1,0 +1,155 @@
+
+.home-top{
+    width: 100%;
+    height: 53px;
+    background-color: #4d4d4d;
+    padding-top: 11px;
+    padding-left: 60px;
+    margin-right: 50px;
+    position: relative;
+}
+.home-top-scan{
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 12px;
+    left: 15px;
+}
+.home-top-scan img{
+    width: 100%;
+}
+.home-top-seek{
+    width: 100%;
+    padding-right: 80px;
+}
+
+.home-top-seek .input{
+    width: 100%;
+    height: 30px;
+    background-color: #838383;
+}
+.home-top-seek .input div{
+     border-left: 2px solid #fff;
+     padding-left: 15px;
+     margin-top: 5px;
+     height: 18px;
+     padding-right: 5px;
+ }
+.home-top-seek .input div img{
+    height: 100%;
+}
+.home-top-seek input{
+
+    width:78%;
+    height: 100%;
+    background-color: #838383;
+    border: 0;
+}
+.home-top .home-top-register{
+   position: absolute;
+    top: 0;
+    right: 11px;
+
+}
+.home-top .home-top-register a{
+  color: #fff;
+    font-size: 28px;
+    float: left;
+    height: 100%;
+    line-height: 50px;
+}
+.home-download{
+    width: 100%;
+}
+.home-download img {
+    width: 100%;
+}
+.home-focusimg{
+    width: 100%;
+}
+.home-focusimg img{
+    width: 100%;
+}
+.home-viefor{
+    width: 100%;
+}
+.home-viefor img{
+    width: 100%;
+}
+.home-popularity{
+    width: 100%;
+}
+.home-popularity img{
+    width: 100%;
+}
+.home-newproduct{
+    width: 100%;
+}
+.home-newproduct img{
+    width: 100%;
+}
+.home-brand{
+    width: 100%;
+}
+.home-nav{
+    margin-top: 5px;
+    width: 100%;
+}
+.home-nav  .home-nav-l{
+    width:26.27%;
+}
+.home-nav  .home-nav-l img{
+    width:100%;
+}
+.home-nav  .home-nav-r{
+    width:73%;
+}
+.home-nav  .home-nav-r .home-nav-r1{
+    width: 40%;
+}
+.home-nav  .home-nav-r .home-nav-r1 img{
+    width: 100%;
+}
+
+.home-nav  .home-nav-r .home-nav-r2{
+    width: 59%;
+}
+
+.home-nav  .home-nav-r .home-nav-r2 img{
+    width: 100%;
+}
+.home-nav  .home-nav-r .home-nav-r3{
+    width: 100%;
+    margin-top: 0.13333333333rem;
+}
+.home-nav  .home-nav-r .home-nav-r3 img{
+    width: 100%;
+}
+.home-brand .home-brand-top{
+    width: 100%;
+    margin-top: 0.05333333333rem;
+}
+.home-brand .home-brand-top img{
+    width: 100%;
+}
+.home-brand  .home-brand-list{
+    width: 100%;
+    height: 9.253333333333rem;
+    background-color: #bbe6a6;
+    padding: 0.32rem;
+}
+.home-brand  .home-brand-list li{
+    width: 25%;
+    height: 4.0533333333333rem;
+    border: 1px solid #ccc;
+    float: left;
+    background-color: #ffffff;
+    margin-bottom: 0.4rem;
+}
+.home-serve {
+    padding: 20px;
+    width: 100%;
+}
+.home-serve img{
+    width: 100%;
+}
