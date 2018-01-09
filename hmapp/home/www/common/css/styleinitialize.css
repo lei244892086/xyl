@@ -1,0 +1,169 @@
+/*公共样式*/
+
+/*1.样式重置*/
+html,body,h3,h4,ul,li,img,a,p,div,form,input{
+    padding: 0;
+    margin: 0;
+    /*设置盒模型*/
+    box-sizing: border-box;
+    /*去除移动端特有的点击高亮效果*/
+    -webkit-tap-highlight-color: transparent;
+    font-family: "微软雅黑";
+}
+body{
+    font-family: "宋体",sans-serif;
+    font-size: 13px;
+}
+a,
+a:hover{
+    color: #666;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+input{
+    /*1.清除文本框获取焦点时默认的边框阴影*/
+    outline: none;
+    /*2.去除边框*/
+    border: none;
+    /*3.添加边框*/
+    border: 1px solid #ccc;
+}
+
+/*2.添加新的样式*/
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+}
+.m_left10{
+    margin-left: 10px;
+}
+.m_right10{
+    margin-right: 10px;
+}
+.m_top10{
+    margin-top: 10px;
+}
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+@media screen and (device-width: 320px) {
+    html {
+        font-size: 16px;
+    }
+}
+@media screen and (device-width: 360px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media screen and (device-width: 375px) {
+    html {
+        font-size: 18.75px;
+    }
+}
+@media screen and (device-width: 412px) {
+    html {
+        font-size: 20.6px;
+    }
+}
+@media screen and (device-width: 414px) {
+    html {
+        font-size: 20.7px;
+    }
+}
+@media screen and (device-width: 640px) {
+    html {
+        font-size: 32px;
+    }
+}
+@media screen and (device-width: 750px) {
+    html {
+        font-size: 37.5px;
+    }
+}
+ @media screen and (min-width: 750px) {
+  html {
+    font-size: 37.5px;
+  }
+}
+body{
+    max-width: 750px;
+    min-width: 320px ;
+    margin: 0 auto;
+}
+.wrap{
+    max-width: 750px;
+    min-width: 320px ;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footerbox{
+    max-width: 750px;
+    min-width: 320px ;
+    margin: 0 auto;
+
+}
+.footerbox ul{
+
+}
+.footerbox li{
+    margin-top: 15px;
+   float: left;
+    width: 20%;
+    border-right: 1px solid #ccc;
+    background-color: #fff;
+    padding-top: 12px;
+    box-shadow:0px -4px 2px 0px #ccc
+}
+.footerbox li .img{
+    width: 58px;
+    height: 44px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+.footerbox li p{
+    text-align: center;
+    color: #666;
+    font-size: 0.48rem;
+}
+
+.footerbox  .kinds .img{
+  background: url("../imgs/kinds-1.png") center no-repeat;
+}
+.footerbox  .kinds:hover .img,.footerbox  .kinds:active .img{
+    background: url("../imgs/kinds-2.png") center no-repeat;
+}
+.footerbox  .vip .img{
+    background: url("../imgs/vip-1.png") center no-repeat;
+}
+.footerbox  .vip:hover .img,.footerbox  .vip:active .img{
+    background: url("../imgs/vip-2.png") center no-repeat;
+}
+.footerbox  .main .img{
+    background: url("../imgs/main page-logo.png") center no-repeat;
+}
+.footerbox  .main:hover .img,.footerbox  .main:active .img{
+    background: url("../imgs/main page-logo.png") center no-repeat;
+}
+.footerbox  .shop .img{
+    background: url("../imgs/shop car-1.png") center no-repeat;
+}
+.footerbox  .shop:hover .img,.footerbox  .shop:active .img{
+    background: url("../imgs/shop car-2.png") center no-repeat;
+}
+.footerbox  .me .img{
+    background: url("../imgs/me-1.png") center no-repeat;
+}
+.footerbox  .me:hover .img,.footerbox  .me:active .img{
+    background: url("../imgs/me-2.png") center no-repeat;
+}
